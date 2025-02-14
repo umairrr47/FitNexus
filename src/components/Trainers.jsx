@@ -33,14 +33,12 @@ const Trainers = () => (
           key={index}
           className="relative overflow-hidden rounded-2xl shadow-xl group transition-all duration-300 hover:scale-105 hover:shadow-2xl"
         >
-          {/* Trainer Image */}
           <img
             src={trainer.img}
             alt={trainer.name}
             className="w-full h-64 object-cover rounded-2xl transition-transform duration-500 group-hover:scale-110"
           />
 
-          {/* Hover Overlay */}
           <div className="absolute inset-0 bg-black bg-opacity-40 backdrop-blur-sm flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
             <h3 className="text-white text-xl font-bold mb-1">{trainer.name}</h3>
             <p className="text-yellow-300 text-md">{trainer.specialty}</p>

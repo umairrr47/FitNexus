@@ -6,12 +6,12 @@ const Banner = () => {
   return (
     <section className="relative min-h-screen pt-20 bg-black text-white flex flex-col lg:flex-row items-center justify-between px-6 sm:px-10 lg:px-20 py-10 lg:py-16 overflow-hidden">
       
-      {/* Background Image for Mobile */}
+      
       <div className="absolute inset-0 lg:hidden bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${banner})` }}>
-        <div className="absolute inset-0 bg-black/70"></div> {/* Dark overlay for readability */}
+        <div className="absolute inset-0 bg-black/70"></div> 
       </div>
 
-      {/* Background Glow Effect */}
+    
       <div className="absolute inset-0 bg-gradient-to-r from-yellow-500/10 to-transparent opacity-40 blur-3xl"></div>
 
       {/* Left Content */}
@@ -23,7 +23,7 @@ const Banner = () => {
           Join the best gym in town and transform your fitness journey.
         </p>
 
-        {/* Features Section */}
+        
         <div className="flex flex-wrap gap-6 justify-center lg:justify-start animate-fade-in delay-400">
           {[ 
             { icon: <FaDumbbell />, label: "Strength Training" },
@@ -51,7 +51,7 @@ const Banner = () => {
         </div>
       </div>
 
-      {/* Right Side Image (Only visible on larger screens) */}
+      
       <div className="hidden lg:flex flex-1 min-w-0 justify-center items-center mt-8 lg:mt-0">
         <img
           src={banner}

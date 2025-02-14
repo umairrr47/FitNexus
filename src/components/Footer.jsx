@@ -4,12 +4,11 @@ import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="bg-gradient-to-b from-gray-900 via-black to-gray-900 text-white font-poppins py-14 relative overflow-hidden">
-      {/* Background Glow Effect */}
+  
       <div className="absolute inset-0 w-full h-full bg-gradient-radial from-blue-500/10 to-transparent opacity-30 blur-3xl pointer-events-none"></div>
 
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12 relative z-10">
         
-        {/* Brand Info */}
         <div>
           <h1 className="text-4xl font-extrabold bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
             FitNexus
@@ -38,7 +37,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Social Media */}
         <div>
           <h2 className="text-2xl font-semibold text-gray-300 border-b border-gray-700 pb-2 mb-4">
             Follow Us
@@ -62,7 +60,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Footer Bottom */}
       <div className="mt-10 border-t border-gray-700 pt-6 text-center text-gray-500 text-sm relative z-10">
         <p>© 2025 FitLife Gym. All rights reserved.</p>
         <p className="text-white hover:text-purple-400 cursor-pointer transition duration-300">
